@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Evaluation</title>
+</head>
+<body>
+    <h1>SQL T5 Model Evaluation</h1>
+    <p><strong>Exact Match Accuracy:</strong> {{ accuracy }}</p>
+    <p><strong>Average Similarity Score:</strong> {{ avg_similarity }}</p>
+    <h2>Similarity Score Distribution</h2>
+    <img src="data:image/png;base64,{{ plot_image }}" alt="Histogram">
+</body>
+</html>
