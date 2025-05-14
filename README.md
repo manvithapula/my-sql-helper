@@ -1,4 +1,4 @@
-NLP-to-SQL Query Generator
+# NLP-to-SQL Query Generator
 Overview
 This project converts natural language questions into SQL queries using a fine-tuned T5 model on the WikiSQL dataset. Built with Flask, it features a web interface for query generation and a dashboard for performance metrics. 
 
@@ -6,11 +6,10 @@ Converts questions (e.g., "Show all employees in Sales") to SQL (SELECT * FROM e
 Web interface with Flask for user input and query output.
 
 
-Installation
+# Installation
 
 Clone the repository:git clone https://github.com/manvithapula/my-sql-helper.git
 cd my-sql-helper
-
 
 Create and activate a virtual environment:python -m venv venv
 source venv/bin/activate  
@@ -21,7 +20,7 @@ Install dependencies:pip install -r requirements.txt
 
 
 
-Dependencies
+# Dependencies
 Listed in requirements.txt:
 flask
 flask-cors
@@ -37,7 +36,7 @@ datasets
 nltk
 tqdm
 
-Usage
+# Usage
 
 Run the Flask app:python app.py
 
