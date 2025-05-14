@@ -1,0 +1,13 @@
+flask
+flask-cors
+transformers
+torch
+matplotlib
+numpy
+sentencepiece
+tiktoken
+protobuf
+blobfile
+datasets
+nltk
+tqdm
