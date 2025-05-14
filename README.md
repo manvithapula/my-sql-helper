@@ -9,32 +9,17 @@ Web interface with Flask for user input and query output.
 # Installation
 
 Clone the repository:git clone https://github.com/manvithapula/my-sql-helper.git
+
 cd my-sql-helper
 
-Create and activate a virtual environment:python -m venv venv
+Create and activate a virtual environment : python -m venv venv
+
 source venv/bin/activate  
 .\venv\Scripts\activate   
 
 
 Install dependencies:pip install -r requirements.txt
 
-
-
-# Dependencies
-Listed in requirements.txt:
-flask
-flask-cors
-transformers
-torch
-matplotlib
-numpy
-sentencepiece
-tiktoken
-protobuf
-blobfile
-datasets
-nltk
-tqdm
 
 # Usage
 
